@@ -217,6 +217,26 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/random/base/minstd-shuffle`][@stdlib/random/base/minstd-shuffle]: A linear congruential pseudorandom number generator (LCG) whose output is shuffled.
+-   [`@stdlib/random/iter/minstd`][@stdlib/random/iter/minstd]: create an iterator for a linear congruential pseudorandom number generator (LCG) based on Park and Miller.
+-   [`@stdlib/random/iter/mt19937`][@stdlib/random/iter/mt19937]: create an iterator for a 32-bit Mersenne Twister pseudorandom number generator.
+-   [`@stdlib/random/iter/randi`][@stdlib/random/iter/randi]: create an iterator for generating pseudorandom numbers having integer values.
+-   [`@stdlib/random/iter/randu`][@stdlib/random/iter/randu]: create an iterator for generating uniformly distributed pseudorandom numbers between 0 and 1.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -281,6 +301,20 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@herzog:2002]: https://books.google.com/books?id=vC7I_gdX-A0C
 
 [@stdlib/array/int32]: https://github.com/stdlib-js/array-int32
+
+<!-- <related-links> -->
+
+[@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle
+
+[@stdlib/random/iter/minstd]: https://github.com/stdlib-js/random-iter-minstd
+
+[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937
+
+[@stdlib/random/iter/randi]: https://github.com/stdlib-js/random-iter-randi
+
+[@stdlib/random/iter/randu]: https://github.com/stdlib-js/random-iter-randu
+
+<!-- </related-links> -->
 
 </section>
 
