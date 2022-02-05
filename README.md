@@ -30,8 +30,26 @@ limitations under the License.
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var iterator = require( '@stdlib/random-iter-minstd-shuffle' );
+iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-minstd-shuffle@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-minstd-shuffle@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.iterator;
+})()
+</script>
 ```
 
 #### iterator( \[options] )
@@ -168,8 +186,13 @@ The returned iterator protocol-compliant object has the following properties:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var iterator = require( '@stdlib/random-iter-minstd-shuffle' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-minstd-shuffle@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var it;
 var r;
@@ -188,6 +211,11 @@ while ( true ) {
     }
     console.log( r.value );
 }
+
+})()
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -279,6 +307,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 -->
 
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/deno
+[umd-url]: https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/umd
+[esm-url]: https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/esm
+
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
 
@@ -296,19 +331,19 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@herzog:2002]: https://books.google.com/books?id=vC7I_gdX-A0C
 
-[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32
+[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle
+[@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle/tree/umd
 
-[@stdlib/random/iter/minstd]: https://github.com/stdlib-js/random-iter-minstd
+[@stdlib/random/iter/minstd]: https://github.com/stdlib-js/random-iter-minstd/tree/umd
 
-[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937
+[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937/tree/umd
 
-[@stdlib/random/iter/randi]: https://github.com/stdlib-js/random-iter-randi
+[@stdlib/random/iter/randi]: https://github.com/stdlib-js/random-iter-randi/tree/umd
 
-[@stdlib/random/iter/randu]: https://github.com/stdlib-js/random-iter-randu
+[@stdlib/random/iter/randu]: https://github.com/stdlib-js/random-iter-randu/tree/umd
 
 <!-- </related-links> -->
 
