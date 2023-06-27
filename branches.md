@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/iter/minstd-shuffle"
-click B href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/main"
-click C href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/production"
-click D href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/esm"
-click E href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/deno"
-click F href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/iter/minstd-shuffle"
+%% click B href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/main"
+%% click C href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/production"
+%% click D href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/esm"
+%% click E href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/deno"
+%% click F href "https://github.com/stdlib-js/random-iter-minstd-shuffle/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/iter/minstd-shuffle
