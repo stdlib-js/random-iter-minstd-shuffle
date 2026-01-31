@@ -43,7 +43,7 @@
     "@stdlib/assert-is-plain-object": "^0.2.2",
     "@stdlib/constants-float64-max": "^0.2.2",
     "@stdlib/object-assign": "^0.2.2",
-    "@stdlib/random-base-minstd-shuffle": "^0.2.1",
+    "@stdlib/random-base-minstd-shuffle": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/symbol-iterator": "^0.2.2",
     "@stdlib/types": "^0.4.3",
